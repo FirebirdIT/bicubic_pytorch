@@ -1,5 +1,12 @@
 # bicubic-pytorch
 
+# Vision
+install requirements 
+`pip install -r requirements txt`
+
+run test `python main.py`
+
+ ---
 Image resizing is one of the essential operations in computer vision and image processing.
 While MATLAB's `imresize` function is used as a standard, implementations from other libraries (e.g., PIL, OpenCV, PyTorch, ...) are not consistent with the MATLAB, especially for a bicubic kernel.
 The goal of this repository is to provide a **MATLAB-like bicubic interpolation** in a widely-used PyTorch framework.
